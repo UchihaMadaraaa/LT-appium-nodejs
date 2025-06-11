@@ -33,7 +33,7 @@ const desiredCapabilities = {
 };
 
 const driver = wd.promiseRemote(
-  `https://${username}:${accessKey}@mobile-hub.lambdatest.com/wd/hub`
+  `https://${username}:${accessKey}@stage-mobile-hub.lambdatestinternal.com/wd/hub`
 );
 
 const DEFAULT_TIMEOUT = 10000;
